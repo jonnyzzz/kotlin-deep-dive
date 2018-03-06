@@ -1,7 +1,11 @@
 package org.jonnyzzz.demo
 
 inline fun <reified T> deserialize() : T {
+  println(T::class.java)
+
   println(typeRef<T>())
+
+
   TODO()
 }
 
