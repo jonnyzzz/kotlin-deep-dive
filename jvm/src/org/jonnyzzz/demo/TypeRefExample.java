@@ -10,7 +10,8 @@ public class TypeRefExample {
 
 
     final Map<String, List<Long>> map =
-            deserialize(new TypeRef<Map<String, List<Long>>>() {});
+            deserialize(
+                    new TypeRef<Map<String, List<Long>>>() {});
 
 
 

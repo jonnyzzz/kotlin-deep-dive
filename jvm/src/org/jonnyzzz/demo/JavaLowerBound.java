@@ -1,5 +1,8 @@
 package org.jonnyzzz.demo;
 
+import java.util.Collection;
+import java.util.List;
+
 public class JavaLowerBound {
 
 
@@ -20,5 +23,8 @@ public class JavaLowerBound {
       t.bar();
     }
   }
+
+  void foo(Collection<IA> a ) {}
+  void foo(List<IB> a ) {}
 
 }
