@@ -14,5 +14,14 @@ public class NodeJava<T> {
   public T getValue() {
     return value;
   }
+
+/*
+
+  public <Q> void foo(Q q) {
+    Class c = String.class;
+    Class d = Q.class; //NOT ALLOWED
+  }
+*/
+
 }
 
