@@ -5,13 +5,10 @@ import java.util.ArrayList;
 public class TypeCapture {
 
   public static void main(String[] args) {
-
     //no type info
     printType(
             new ArrayList<String>()
     );
-
-
     //has type info
     printType(
             new ArrayList<String>() {}

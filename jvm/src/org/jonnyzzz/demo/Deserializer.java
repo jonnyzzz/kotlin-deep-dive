@@ -13,16 +13,16 @@ public class Deserializer {
     return (T) new Object();
   }
 
-
-
   public void usage() {
+    List<String> b = load();
+    List<String> a = load(List.class);
 
+    System.out.println(a);
+    System.out.println(b);
 
-    List<String> List = load(List.class);
+  }
 
-    List<String> list = load();
-
-
-
+  public static void main(String[] args) {
+    new Deserializer().usage();
   }
 }
