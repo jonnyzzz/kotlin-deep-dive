@@ -19,7 +19,7 @@ public class TypeCapture {
   }
 
   private static void printType(Object o) {
-    System.out.println("type: " + o.getClass());
+    System.out.println("type:    " + o.getClass());
     System.out.println("generic: " + o.getClass().getGenericSuperclass());
     System.out.println();
   }
