@@ -5,3 +5,7 @@
 .idea/
 *.iml
 *.ipr
+.idea/workspace.xml
+out/
+
+
