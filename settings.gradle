@@ -1,7 +1,4 @@
-rootProject.name="jonnyzzz-kotlin-dsl-demo"
+rootProject.name = 'jonnyzzz-kotlin-jvm'
 
-
-includeBuild 'kotlin-jvm'
-includeBuild 'kotlin-android'
 
 
